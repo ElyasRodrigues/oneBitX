@@ -1,0 +1,12 @@
+//Import da font RUBIK
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+//Import das Cores
+@import "./colors/colors.scss";
+//Import dos backgrounds
+@import "./common/backgrounds.scss";
+//Import do Home
+@import "./pages/home.scss";
+//Import do Falcon9
+@import "./pages/falcon9.scss";
+//Import do HumanSpace
+@import "./pages/humanSpace.scss"

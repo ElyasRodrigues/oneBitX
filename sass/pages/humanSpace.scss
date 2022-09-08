@@ -1,0 +1,123 @@
+.container01content{
+  h1{
+    font-size: 120px;
+  }
+  p{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .arrowDown{
+    margin-top: 50px;
+    width: 120px;
+  }
+}
+.descEarth{
+  background-color: $blackBackground;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  p{
+    color: #d8d8d8;
+    font-size: 20px;
+    font-weight: 400;
+    width: 800px;
+  }
+}
+.containerRightContent{
+  margin-left: 55%;
+  padding-top: 15%;
+}
+.titleSection{
+  font-size: 60px;
+  font-weight: bold;
+}
+.subtitleSection{
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.containerLeftContent{
+  margin-left: 5%;
+  padding-top: 15%;
+}
+.dowloadSection{
+  background-color: $blackBackground;
+  font-size: 20px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  #emailDowload{
+    text-decoration: none;
+    font-size: 20px;
+    color: #b9b9b9
+  }
+  .sectionButtons{
+    display: flex;
+    gap: 20px;
+    button{
+      border: 2px solid #fff;
+    }
+  }
+}
+
+@media (max-width: 925px){
+  .container01content{
+    h1{
+      font-size: 80px;
+    }
+    p{
+      font-size: 20px;
+    }
+    .arrowDown{
+      width: 110px;
+    }
+  }
+}
+@media (max-width: 560px){
+  .container01content{
+    h1{
+      font-size: 60px;
+    }
+    p{
+      font-size: 22px;
+    }
+    .arrowDown{
+      width: 100px;
+    }
+  }
+}
+@media (max-width: 510px){
+  .descEarth{
+    height: 60vh;
+  }
+}
+@media (max-width: 500px){
+  .containerRightContent{
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 420px){
+  .container01content{
+    h1{
+      font-size: 40px;
+    }
+    P{
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 350px){
+  .sectionButtons{
+    flex-direction: column;
+  }
+}

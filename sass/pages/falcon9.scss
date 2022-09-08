@@ -1,0 +1,86 @@
+.titleContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+.titleFalcon{
+  font-size: 90px;
+  font-family: "rubik", sans-serif;
+  font-weight: 514;
+}
+.infoNumbers{
+  background-color: $blackBackground;
+  padding-bottom: 30px;
+}
+.numberContent{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  .titleNumber{
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+  }
+  .subTitleNumber{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+.containerFalcon9Desc{
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  .falcon9Desc{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 55px;
+    width: 650px;
+  }
+}
+#overViewPosition{
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carrosselSlide img{
+  height: 100vh;
+}
+.carousel2Text{
+  background-color: $blackBackground;
+}
+
+@media (max-width: 770px){
+  .containerFalcon9Desc{
+    height: auto;
+    .falcon9Desc{
+      font-size: 22px;
+      width: auto;
+    }
+  }
+}
+@media (max-width: 670px){
+  #overViewPosition{
+    width: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 475px){
+  .numberContent{
+    flex-direction: column;
+    .titleNumber{
+      font-size: 70px;
+    }
+    .subTitleNumber{
+      font-size: 18px;
+    }
+  }
+  .titleFalcon{
+    font-size: 70px;
+    font-weight: 514;
+  }
+}
